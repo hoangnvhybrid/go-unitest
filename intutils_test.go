@@ -13,7 +13,7 @@ func TestIntMinBasic(t *testing.T) {
 }
 func TestIntMinTableDriven(t *testing.T) {
 
-	/* ở đây mình sẽ định nghĩa data:  input là gì, output là gì, sau đó xuống vòng for nó se goi ham can test, voi input o day va sau khi thuc
+	/* ở đây mình sẽ định nghĩa data:  input là gì, output mong muốn là gì, sau đó xuống vòng for nó se goi ham can test, voi input o day va sau khi thuc
 	hiện hàm sẽ so sánh giá trị trả về và want nếu khác nhau sẽ có test case failed ngược lại sẽ pass
 	*/
 	var tests = []struct {
